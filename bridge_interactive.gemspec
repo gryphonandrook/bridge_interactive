@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   # Declare runtime dependencies here
   spec.add_runtime_dependency 'httpclient', '~> 2.8'  # Ensure HTTPClient is included
 
-  spec.metadata["allowed_push_host"] = "https://rubygems.org'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/gryphonandrook/bridge_interactive"
