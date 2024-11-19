@@ -9,9 +9,9 @@ module BridgeInteractive
       end
 
       # Fetch all datasets approved for the application
-      def all
+      def all(filters = {})
         endpoint = "#{BASE_URL}datasets"
-        response = @client.get(endpoint, { access_token: @server_token })
+        response = @client.get(endpoint, filters.merge(access_token: @server_token))
         handle_response(response)
       end
 
