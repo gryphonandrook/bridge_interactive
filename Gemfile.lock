@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bridge_interactive (0.1.0)
+    bridge_interactive (0.1.1)
       httpclient (~> 2.8)
 
 GEM
