@@ -1,3 +1,8 @@
+## 0.1.1
+
+Added filters to Dataset queries
+
+
 ## 0.1.0
 
 API Client for use with Bridge Interactive's RESO Web API and Bridge Web API
